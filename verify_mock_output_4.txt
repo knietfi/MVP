@@ -1,0 +1,7 @@
+﻿Scanned positions (Mocked):
+ - Liquid Assets | ['USDC'] | $18.02 | 0.0%
+
+Verifying APY Floor & Small Balance Override...
+Opportunities found: 2
+ - Found UniswapMove (25.0%) for Liquid Assets ($18.02)
+ - Found UniswapMove (25.0%) for Aave ($1000.0)

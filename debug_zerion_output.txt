@@ -1,0 +1,42 @@
+--- Aerodrome Position ---
+ID: 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913-base-aerodrome v3 farming: weth/usdc pool-staked
+Name: Aerodrome V3 Farming: WETH/USDC Pool
+Protocol: Aerodrome V3
+NFT Info: None
+Value: $80.85
+--------------------------
+--- Aerodrome Position ---
+ID: 0x833589fcd6edb6e08f4c7c32d4f71b54bda02913-base-aerodrome v3 farming: weth/usdc pool-staked
+Name: Aerodrome V3 Farming: WETH/USDC Pool
+Protocol: Aerodrome V3
+NFT Info: None
+Value: $63.69
+--------------------------
+--- Aerodrome Position ---
+ID: 0x4200000000000000000000000000000000000006-base-aerodrome v3 farming: weth/usdc pool-staked
+Name: Aerodrome V3 Farming: WETH/USDC Pool
+Protocol: Aerodrome V3
+NFT Info: None
+Value: $35.90
+--------------------------
+--- Aerodrome Position ---
+ID: 0x4200000000000000000000000000000000000006-base-aerodrome v3 farming: weth/usdc pool-staked
+Name: Aerodrome V3 Farming: WETH/USDC Pool
+Protocol: Aerodrome V3
+NFT Info: None
+Value: $18.84
+--------------------------
+--- Aerodrome Position ---
+ID: 0x940181a94a35a4569e4529a3cdfb74e38fd98631-base-aerodrome v3 farming: weth/usdc pool-reward
+Name: Aerodrome V3 Farming: WETH/USDC Pool
+Protocol: Aerodrome V3
+NFT Info: None
+Value: $0.50
+--------------------------
+--- Aerodrome Position ---
+ID: 0x940181a94a35a4569e4529a3cdfb74e38fd98631-base-aerodrome v3 farming: weth/usdc pool-reward
+Name: Aerodrome V3 Farming: WETH/USDC Pool
+Protocol: Aerodrome V3
+NFT Info: None
+Value: $0.30
+--------------------------

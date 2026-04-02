@@ -1,0 +1,6 @@
+﻿Scanned positions (Mocked):
+ - Liquid Assets | ['USDC'] | $18.02 | 0.0%
+
+Verifying APY Floor & Small Balance Override...
+Opportunities found: 1
+ - Found SmallDegen (15.0%) for Liquid Assets ($18.02)

@@ -1,0 +1,15 @@
+﻿Testing Zerion simple positions for 0xd3fD8179aA2cF6d00e6b63B0bDd60259BeA05637...
+Status: 200
+Found 0 simple positions.
+
+Testing Zerion complex positions for 0xd3fD8179aA2cF6d00e6b63B0bDd60259BeA05637...
+Status: 429
+Error: {
+    "errors": [
+        {
+            "title": "Too many requests",
+            "detail": "Your request had been throttled"
+        }
+    ]
+}
+

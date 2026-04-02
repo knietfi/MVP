@@ -1,0 +1,20 @@
+﻿Scanned positions (Mocked):
+ - Liquid Assets | ['USDC'] | $18.02 | 0.0%
+
+Verifying APY Floor & Small Balance Override...
+
+Verifying Risk Tier Quotas & Stability Score...
+Total Opportunities found: 6
+Risk Distribution: 2 Low, 2 Medium, 2 High
+ - [Low] LowRisk_Large | APY: 10.0% | Stability: 7.70
+ - [Low] LowRisk_Large | APY: 10.0% | Stability: 7.70
+ - [Medium] MedRisk_Large | APY: 25.0% | Stability: 6.70
+ - [Medium] MedRisk_Large | APY: 25.0% | Stability: 6.70
+ - [High] HighRisk_Supernova | APY: 500.0% | Stability: 5.70
+ - [High] HighRisk_Supernova | APY: 500.0% | Stability: 5.70
+SUCCESS: Low Risk Quota met (>= 2)
+SUCCESS: Medium Risk Quota met (>= 2)
+SUCCESS: Low Risk sorted by Stability Score.
+
+Verifying Asset Preservation Bypass (Low Risk < 20% Floor)...
+SUCCESS: 15% Low Risk move bypassed 20% floor (Asset Preservation working).

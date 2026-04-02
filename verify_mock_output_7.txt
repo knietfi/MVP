@@ -1,0 +1,6 @@
+﻿Scanned positions (Mocked):
+ - Liquid Assets | ['USDC'] | $18.02 | 0.0%
+
+Verifying APY Floor & Small Balance Override...
+
+Verifying Risk Tier Quotas & Stability Score...

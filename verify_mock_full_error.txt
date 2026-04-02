@@ -1,0 +1,76 @@
+﻿python : 2026-03-10 
+22:59:35  INFO      
+Zerion returned 2 raw 
+position entries.
+At line:1 char:1
++ python 
+verify_mock.py 2>&1 | 
+Out-File -Encoding 
+utf8 verify_mock_full 
+...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (2026-03-10 22   
+ :5...sition entrie    
+s.:String) [], Rem    
+oteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+2026-03-10 22:59:35  
+INFO      Position: 
+[Liquid Assets] 
+tokens=['USDC']  
+value=$18.02  
+APY=0.00%  ID=None  
+Range=unknown
+2026-03-10 22:59:35  
+INFO      Scouting 
+upgrades for ['USDC'] 
+in Liquid Assets  
+(current APY=0.00%)
+Scanned positions (Mocked):
+ - Liquid Assets | ['USDC'] | $18.02 | 0.0%
+
+Verifying APY Floor & Small Balance Override...
+
+Verifying Risk Tier Quotas & Stability Score...
+Traceback (most recent 
+call last):
+  File 
+"C:\Users\malon\Web3 De
+velopment\Portfolio\Por
+tfolio_Projects\KinetiF
+i\verify_mock.py", 
+line 156, in <module>
+    verify_mock()
+  File 
+"C:\Users\malon\Web3 De
+velopment\Portfolio\Por
+tfolio_Projects\KinetiF
+i\verify_mock.py", 
+line 102, in 
+verify_mock
+    opps = scanner.hunt
+_opportunities(position
+s)
+           ^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^
+^^
+  File 
+"c:\Users\malon\Web3 De
+velopment\Portfolio\Por
+tfolio_Projects\Kinetif
+i-agent\discovery_engin
+e.py", line 693, in 
+hunt_opportunities
+    pos_opportunities.a
+ppend(candidate_opp)
+    ^^^^^^^^^^^^^^^^^
+NameError: name 
+'pos_opportunities' is 
+not defined. Did you 
+mean: 'opportunities'?

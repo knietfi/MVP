@@ -1,0 +1,7 @@
+﻿Fetching positions...
+No positions found.
+
+Hunting opportunities...
+Found 0 opportunities.
+
+Rejection Logs:

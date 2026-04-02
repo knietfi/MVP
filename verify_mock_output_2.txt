@@ -1,0 +1,5 @@
+﻿Scanned positions (Mocked):
+FAILURE: Failed to detect Liquid Assets.
+
+Verifying Rejection Logging...
+FAILURE: Failed to log rejection.

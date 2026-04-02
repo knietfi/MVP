@@ -1,0 +1,9 @@
+﻿Testing Zerion simple positions for 0xd3fD8179aA2cF6d00e6b63B0bDd60259BeA05637...
+Status: 200
+Found 0 simple positions.
+
+Waiting 5s to avoid rate limit...
+
+Testing Zerion complex positions for 0xd3fD8179aA2cF6d00e6b63B0bDd60259BeA05637...
+Status: 200
+Found 0 complex positions.

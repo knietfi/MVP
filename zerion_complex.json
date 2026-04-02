@@ -1,0 +1,1323 @@
+{
+  "links": {
+    "self": "https://api.zerion.io/v1/wallets/0x2ba20848f5125dd14b2620d978f83a993176a43f/positions/?currency=usd&filter%5Bchain_ids%5D=0g%2Cabstract%2Cape%2Carbitrum%2Caurora%2Cavalanche%2Cbase%2Cberachain%2Cbinance-smart-chain%2Cblast%2Ccelo%2Cdegen%2Cethereum%2Cfantom%2Cgravity-alpha%2Chyperevm%2Cink%2Ckatana%2Clens%2Clinea%2Cmantle%2Cmegaeth%2Cmonad%2Cokbchain%2Coptimism%2Cplasma%2Cpolygon%2Cpolygon-zkevm%2Cscroll%2Csomnia%2Csoneium%2Csonic%2Cunichain%2Cwonder%2Cworld%2Cxdai%2Cxinfin-xdc%2Czero%2Czkcandy%2Czksync-era%2Czora&filter%5Bpositions%5D=only_complex&filter%5Btrash%5D=only_non_trash&sort=value"
+  },
+  "data": [
+    {
+      "type": "positions",
+      "id": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913-base-aerodrome v3 farming: weth/usdc pool-staked",
+      "attributes": {
+        "parent": null,
+        "protocol": "Aerodrome V3",
+        "protocol_module": "farming",
+        "pool_address": "0xf33a96b5932d9e9b9a0eda447abd8c9d48d2e0c8",
+        "group_id": "d0d2e79cf8771570b78d0cfa79d22ab39dff962d3d79f17801765475dcda272f",
+        "name": "Aerodrome V3 Farming: WETH/USDC Pool",
+        "position_type": "staked",
+        "quantity": {
+          "int": "73683841",
+          "decimals": 6,
+          "float": 73.683841,
+          "numeric": "73.683841"
+        },
+        "value": 73.68144749095087,
+        "price": 0.9999675164999999,
+        "changes": {
+          "absolute_1d": 0.02904246382497888,
+          "percent_1d": 0.0394317929119703
+        },
+        "fungible_info": {
+          "name": "USDC",
+          "symbol": "USDC",
+          "icon": {
+            "url": "https://cdn.zerion.io/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png"
+          },
+          "flags": {
+            "verified": true
+          },
+          "implementations": [
+            {
+              "chain_id": "0g",
+              "address": "0x1f3aa82227281ca364bfb3d253b0f1af1da6473e",
+              "decimals": 6
+            },
+            {
+              "chain_id": "abstract",
+              "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+              "decimals": 6
+            },
+            {
+              "chain_id": "ape",
+              "address": "0xf1815bd50389c46847f0bda824ec8da914045d14",
+              "decimals": 6
+            },
+            {
+              "chain_id": "arbitrum",
+              "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+              "decimals": 6
+            },
+            {
+              "chain_id": "aurora",
+              "address": "0xb12bfca5a55806aaf64e99521918a4bf0fc40802",
+              "decimals": 6
+            },
+            {
+              "chain_id": "avalanche",
+              "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+              "decimals": 6
+            },
+            {
+              "chain_id": "base",
+              "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+              "decimals": 6
+            },
+            {
+              "chain_id": "berachain",
+              "address": "0x549943e04f40284185054145c6e4e9568c1d3241",
+              "decimals": 6
+            },
+            {
+              "chain_id": "binance-smart-chain",
+              "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+              "decimals": 18
+            },
+            {
+              "chain_id": "celo",
+              "address": "0xceba9300f2b948710d2653dd7b07f33a8b32118c",
+              "decimals": 6
+            },
+            {
+              "chain_id": "degen",
+              "address": "0xf1815bd50389c46847f0bda824ec8da914045d14",
+              "decimals": 6
+            },
+            {
+              "chain_id": "ethereum",
+              "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "decimals": 6
+            },
+            {
+              "chain_id": "gravity-alpha",
+              "address": "0xfbda5f676cb37624f28265a144a48b0d6e87d3b6",
+              "decimals": 6
+            },
+            {
+              "chain_id": "hypercore",
+              "address": null,
+              "decimals": 8
+            },
+            {
+              "chain_id": "hyperevm",
+              "address": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+              "decimals": 6
+            },
+            {
+              "chain_id": "ink",
+              "address": "0x2d270e6886d130d724215a266106e6832161eaed",
+              "decimals": 6
+            },
+            {
+              "chain_id": "katana",
+              "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+              "decimals": 6
+            },
+            {
+              "chain_id": "lens",
+              "address": "0x88f08e304ec4f90d644cec3fb69b8ad414acf884",
+              "decimals": 6
+            },
+            {
+              "chain_id": "linea",
+              "address": "0x176211869ca2b568f2a7d4ee941e073a821ee1ff",
+              "decimals": 6
+            },
+            {
+              "chain_id": "manta-pacific",
+              "address": "0xb73603c5d87fa094b7314c74ace2e64d165016fb",
+              "decimals": 6
+            },
+            {
+              "chain_id": "mantle",
+              "address": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+              "decimals": 6
+            },
+            {
+              "chain_id": "metis-andromeda",
+              "address": "0xea32a96608495e54156ae48931a7c20f0dcc1a21",
+              "decimals": 6
+            },
+            {
+              "chain_id": "mode",
+              "address": "0xd988097fb8612cc24eec14542bc03424c656005f",
+              "decimals": 6
+            },
+            {
+              "chain_id": "monad",
+              "address": "0x754704bc059f8c67012fed69bc8a327a5aafb603",
+              "decimals": 6
+            },
+            {
+              "chain_id": "okbchain",
+              "address": "0x74b7f16337b8972027f6196a17a631ac6de26d22",
+              "decimals": 6
+            },
+            {
+              "chain_id": "optimism",
+              "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+              "decimals": 6
+            },
+            {
+              "chain_id": "polygon",
+              "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+              "decimals": 6
+            },
+            {
+              "chain_id": "polygon-zkevm",
+              "address": "0xa8ce8aee21bc2a48a5ef670afcc9274c7bbbc035",
+              "decimals": 6
+            },
+            {
+              "chain_id": "rari",
+              "address": "0xfbda5f676cb37624f28265a144a48b0d6e87d3b6",
+              "decimals": 6
+            },
+            {
+              "chain_id": "ronin",
+              "address": "0x0b7007c13325c48911f73a2dad5fa5dcbf808adc",
+              "decimals": 6
+            },
+            {
+              "chain_id": "scroll",
+              "address": "0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4",
+              "decimals": 6
+            },
+            {
+              "chain_id": "sei",
+              "address": "0xe15fc38f6d8c56af07bbcbe3baf5708a2bf42392",
+              "decimals": 6
+            },
+            {
+              "chain_id": "solana",
+              "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "decimals": 6
+            },
+            {
+              "chain_id": "soneium",
+              "address": "0xba9986d2381edf1da03b0b9c1f8b00dc4aacc369",
+              "decimals": 6
+            },
+            {
+              "chain_id": "sonic",
+              "address": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+              "decimals": 6
+            },
+            {
+              "chain_id": "taiko",
+              "address": "0x07d83526730c7438048d55a4fc0b850e2aab6f0b",
+              "decimals": 6
+            },
+            {
+              "chain_id": "unichain",
+              "address": "0x078d782b760474a361dda0af3839290b0ef57ad6",
+              "decimals": 6
+            },
+            {
+              "chain_id": "wonder",
+              "address": "0x3b50ac254a535200461c1cd3819ecd5eb1bc5ba3",
+              "decimals": 6
+            },
+            {
+              "chain_id": "world",
+              "address": "0x79a02482a880bce3f13e09da970dc34db4cd24d1",
+              "decimals": 6
+            },
+            {
+              "chain_id": "xdai",
+              "address": "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83",
+              "decimals": 6
+            },
+            {
+              "chain_id": "xinfin-xdc",
+              "address": "0xfa2958cb79b0491cc627c1557f441ef849ca8eb1",
+              "decimals": 6
+            },
+            {
+              "chain_id": "zero",
+              "address": "0x6a6394f47dd0baf794808f2749c09bd4ee874e70",
+              "decimals": 6
+            },
+            {
+              "chain_id": "zksync-era",
+              "address": "0x1d17cbcf0d6d143135ae902365d2e5e2a16538d4",
+              "decimals": 6
+            },
+            {
+              "chain_id": "zora",
+              "address": "0xcccccccc7021b32ebb4e8c08314bd62f7c653ec4",
+              "decimals": 6
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2026-03-10T01:46:40Z",
+        "updated_at_block": null,
+        "application_metadata": {
+          "name": "Aerodrome V3",
+          "icon": {
+            "url": "https://protocol-icons.s3.amazonaws.com/icons/aerodrome-v3.jpg"
+          },
+          "url": "https://aerodrome.finance/"
+        }
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/base"
+          },
+          "data": {
+            "type": "chains",
+            "id": "base"
+          }
+        },
+        "dapp": {
+          "data": {
+            "type": "dapps",
+            "id": "aerodrome-v3"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913-base-aerodrome v3 farming: weth/usdc pool-staked",
+      "attributes": {
+        "parent": null,
+        "protocol": "Aerodrome V3",
+        "protocol_module": "farming",
+        "pool_address": "0xf33a96b5932d9e9b9a0eda447abd8c9d48d2e0c8",
+        "group_id": "d0d2e79cf8771570b78d0cfa79d22ab39dff962d3d79f17801765475dcda272f",
+        "name": "Aerodrome V3 Farming: WETH/USDC Pool",
+        "position_type": "staked",
+        "quantity": {
+          "int": "59957179",
+          "decimals": 6,
+          "float": 59.957179,
+          "numeric": "59.957179"
+        },
+        "value": 59.955231380975945,
+        "price": 0.9999675164999999,
+        "changes": {
+          "absolute_1d": 0.02363210411568417,
+          "percent_1d": 0.0394317929119703
+        },
+        "fungible_info": {
+          "name": "USDC",
+          "symbol": "USDC",
+          "icon": {
+            "url": "https://cdn.zerion.io/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48.png"
+          },
+          "flags": {
+            "verified": true
+          },
+          "implementations": [
+            {
+              "chain_id": "0g",
+              "address": "0x1f3aa82227281ca364bfb3d253b0f1af1da6473e",
+              "decimals": 6
+            },
+            {
+              "chain_id": "abstract",
+              "address": "0x84a71ccd554cc1b02749b35d22f684cc8ec987e1",
+              "decimals": 6
+            },
+            {
+              "chain_id": "ape",
+              "address": "0xf1815bd50389c46847f0bda824ec8da914045d14",
+              "decimals": 6
+            },
+            {
+              "chain_id": "arbitrum",
+              "address": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+              "decimals": 6
+            },
+            {
+              "chain_id": "aurora",
+              "address": "0xb12bfca5a55806aaf64e99521918a4bf0fc40802",
+              "decimals": 6
+            },
+            {
+              "chain_id": "avalanche",
+              "address": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+              "decimals": 6
+            },
+            {
+              "chain_id": "base",
+              "address": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+              "decimals": 6
+            },
+            {
+              "chain_id": "berachain",
+              "address": "0x549943e04f40284185054145c6e4e9568c1d3241",
+              "decimals": 6
+            },
+            {
+              "chain_id": "binance-smart-chain",
+              "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
+              "decimals": 18
+            },
+            {
+              "chain_id": "celo",
+              "address": "0xceba9300f2b948710d2653dd7b07f33a8b32118c",
+              "decimals": 6
+            },
+            {
+              "chain_id": "degen",
+              "address": "0xf1815bd50389c46847f0bda824ec8da914045d14",
+              "decimals": 6
+            },
+            {
+              "chain_id": "ethereum",
+              "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+              "decimals": 6
+            },
+            {
+              "chain_id": "gravity-alpha",
+              "address": "0xfbda5f676cb37624f28265a144a48b0d6e87d3b6",
+              "decimals": 6
+            },
+            {
+              "chain_id": "hypercore",
+              "address": null,
+              "decimals": 8
+            },
+            {
+              "chain_id": "hyperevm",
+              "address": "0xb88339cb7199b77e23db6e890353e22632ba630f",
+              "decimals": 6
+            },
+            {
+              "chain_id": "ink",
+              "address": "0x2d270e6886d130d724215a266106e6832161eaed",
+              "decimals": 6
+            },
+            {
+              "chain_id": "katana",
+              "address": "0x203a662b0bd271a6ed5a60edfbd04bfce608fd36",
+              "decimals": 6
+            },
+            {
+              "chain_id": "lens",
+              "address": "0x88f08e304ec4f90d644cec3fb69b8ad414acf884",
+              "decimals": 6
+            },
+            {
+              "chain_id": "linea",
+              "address": "0x176211869ca2b568f2a7d4ee941e073a821ee1ff",
+              "decimals": 6
+            },
+            {
+              "chain_id": "manta-pacific",
+              "address": "0xb73603c5d87fa094b7314c74ace2e64d165016fb",
+              "decimals": 6
+            },
+            {
+              "chain_id": "mantle",
+              "address": "0x09bc4e0d864854c6afb6eb9a9cdf58ac190d0df9",
+              "decimals": 6
+            },
+            {
+              "chain_id": "metis-andromeda",
+              "address": "0xea32a96608495e54156ae48931a7c20f0dcc1a21",
+              "decimals": 6
+            },
+            {
+              "chain_id": "mode",
+              "address": "0xd988097fb8612cc24eec14542bc03424c656005f",
+              "decimals": 6
+            },
+            {
+              "chain_id": "monad",
+              "address": "0x754704bc059f8c67012fed69bc8a327a5aafb603",
+              "decimals": 6
+            },
+            {
+              "chain_id": "okbchain",
+              "address": "0x74b7f16337b8972027f6196a17a631ac6de26d22",
+              "decimals": 6
+            },
+            {
+              "chain_id": "optimism",
+              "address": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+              "decimals": 6
+            },
+            {
+              "chain_id": "polygon",
+              "address": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+              "decimals": 6
+            },
+            {
+              "chain_id": "polygon-zkevm",
+              "address": "0xa8ce8aee21bc2a48a5ef670afcc9274c7bbbc035",
+              "decimals": 6
+            },
+            {
+              "chain_id": "rari",
+              "address": "0xfbda5f676cb37624f28265a144a48b0d6e87d3b6",
+              "decimals": 6
+            },
+            {
+              "chain_id": "ronin",
+              "address": "0x0b7007c13325c48911f73a2dad5fa5dcbf808adc",
+              "decimals": 6
+            },
+            {
+              "chain_id": "scroll",
+              "address": "0x06efdbff2a14a7c8e15944d1f4a48f9f95f663a4",
+              "decimals": 6
+            },
+            {
+              "chain_id": "sei",
+              "address": "0xe15fc38f6d8c56af07bbcbe3baf5708a2bf42392",
+              "decimals": 6
+            },
+            {
+              "chain_id": "solana",
+              "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "decimals": 6
+            },
+            {
+              "chain_id": "soneium",
+              "address": "0xba9986d2381edf1da03b0b9c1f8b00dc4aacc369",
+              "decimals": 6
+            },
+            {
+              "chain_id": "sonic",
+              "address": "0x29219dd400f2bf60e5a23d13be72b486d4038894",
+              "decimals": 6
+            },
+            {
+              "chain_id": "taiko",
+              "address": "0x07d83526730c7438048d55a4fc0b850e2aab6f0b",
+              "decimals": 6
+            },
+            {
+              "chain_id": "unichain",
+              "address": "0x078d782b760474a361dda0af3839290b0ef57ad6",
+              "decimals": 6
+            },
+            {
+              "chain_id": "wonder",
+              "address": "0x3b50ac254a535200461c1cd3819ecd5eb1bc5ba3",
+              "decimals": 6
+            },
+            {
+              "chain_id": "world",
+              "address": "0x79a02482a880bce3f13e09da970dc34db4cd24d1",
+              "decimals": 6
+            },
+            {
+              "chain_id": "xdai",
+              "address": "0xddafbb505ad214d7b80b1f830fccc89b60fb7a83",
+              "decimals": 6
+            },
+            {
+              "chain_id": "xinfin-xdc",
+              "address": "0xfa2958cb79b0491cc627c1557f441ef849ca8eb1",
+              "decimals": 6
+            },
+            {
+              "chain_id": "zero",
+              "address": "0x6a6394f47dd0baf794808f2749c09bd4ee874e70",
+              "decimals": 6
+            },
+            {
+              "chain_id": "zksync-era",
+              "address": "0x1d17cbcf0d6d143135ae902365d2e5e2a16538d4",
+              "decimals": 6
+            },
+            {
+              "chain_id": "zora",
+              "address": "0xcccccccc7021b32ebb4e8c08314bd62f7c653ec4",
+              "decimals": 6
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2026-03-10T01:46:40Z",
+        "updated_at_block": null,
+        "application_metadata": {
+          "name": "Aerodrome V3",
+          "icon": {
+            "url": "https://protocol-icons.s3.amazonaws.com/icons/aerodrome-v3.jpg"
+          },
+          "url": "https://aerodrome.finance/"
+        }
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/base"
+          },
+          "data": {
+            "type": "chains",
+            "id": "base"
+          }
+        },
+        "dapp": {
+          "data": {
+            "type": "dapps",
+            "id": "aerodrome-v3"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x4200000000000000000000000000000000000006-base-aerodrome v3 farming: weth/usdc pool-staked",
+      "attributes": {
+        "parent": null,
+        "protocol": "Aerodrome V3",
+        "protocol_module": "farming",
+        "pool_address": "0xf33a96b5932d9e9b9a0eda447abd8c9d48d2e0c8",
+        "group_id": "d0d2e79cf8771570b78d0cfa79d22ab39dff962d3d79f17801765475dcda272f",
+        "name": "Aerodrome V3 Farming: WETH/USDC Pool",
+        "position_type": "staked",
+        "quantity": {
+          "int": "19224096745501292",
+          "decimals": 18,
+          "float": 0.0192240967455013,
+          "numeric": "0.019224096745501292"
+        },
+        "value": 38.795895384192605,
+        "price": 2018.086774,
+        "changes": {
+          "absolute_1d": 1.3272226754975804,
+          "percent_1d": 3.5422196185497246
+        },
+        "fungible_info": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "icon": {
+            "url": "https://cdn.zerion.io/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png"
+          },
+          "flags": {
+            "verified": true
+          },
+          "implementations": [
+            {
+              "chain_id": "abstract",
+              "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+              "decimals": 18
+            },
+            {
+              "chain_id": "arbitrum",
+              "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+              "decimals": 18
+            },
+            {
+              "chain_id": "astar-zkevm",
+              "address": "0xe9cc37904875b459fa5d0fe37680d36f1ed55e38",
+              "decimals": 18
+            },
+            {
+              "chain_id": "aurora",
+              "address": "0xc9bdeed33cd01541e1eed10f90519d2c06fe3feb",
+              "decimals": 18
+            },
+            {
+              "chain_id": "avalanche",
+              "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+              "decimals": 18
+            },
+            {
+              "chain_id": "base",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "berachain",
+              "address": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+              "decimals": 18
+            },
+            {
+              "chain_id": "binance-smart-chain",
+              "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+              "decimals": 18
+            },
+            {
+              "chain_id": "blast",
+              "address": "0x4300000000000000000000000000000000000004",
+              "decimals": 18
+            },
+            {
+              "chain_id": "celo",
+              "address": "0x2def4285787d58a2f811af24755a8150622f4361",
+              "decimals": 18
+            },
+            {
+              "chain_id": "degen",
+              "address": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+              "decimals": 18
+            },
+            {
+              "chain_id": "ethereum",
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "decimals": 18
+            },
+            {
+              "chain_id": "gravity-alpha",
+              "address": "0xf6f832466cd6c21967e0d954109403f36bc8ceaa",
+              "decimals": 18
+            },
+            {
+              "chain_id": "ink",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "katana",
+              "address": "0xee7d8bcfb72bc1880d0cf19822eb0a2e6577ab62",
+              "decimals": 18
+            },
+            {
+              "chain_id": "lens",
+              "address": "0xe5ecd226b3032910ceaa43ba92ee8232f8237553",
+              "decimals": 18
+            },
+            {
+              "chain_id": "linea",
+              "address": "0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f",
+              "decimals": 18
+            },
+            {
+              "chain_id": "manta-pacific",
+              "address": "0x0dc808adce2099a9f62aa87d9670745aba741746",
+              "decimals": 18
+            },
+            {
+              "chain_id": "mantle",
+              "address": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead1111",
+              "decimals": 18
+            },
+            {
+              "chain_id": "megaeth",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "metis-andromeda",
+              "address": "0x420000000000000000000000000000000000000a",
+              "decimals": 18
+            },
+            {
+              "chain_id": "mode",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "monad",
+              "address": "0xee8c0e9f1bffb4eb878d8f15f368a02a35481242",
+              "decimals": 18
+            },
+            {
+              "chain_id": "optimism",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "polygon",
+              "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+              "decimals": 18
+            },
+            {
+              "chain_id": "polygon-zkevm",
+              "address": "0x4f9a0e7fd2bf6067db6994cf12e4495df938e6e9",
+              "decimals": 18
+            },
+            {
+              "chain_id": "scroll",
+              "address": "0x5300000000000000000000000000000000000004",
+              "decimals": 18
+            },
+            {
+              "chain_id": "solana",
+              "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+              "decimals": 8
+            },
+            {
+              "chain_id": "soneium",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "sonic",
+              "address": "0x50c42deacd8fc9773493ed674b675be577f2634b",
+              "decimals": 18
+            },
+            {
+              "chain_id": "taiko",
+              "address": "0xa51894664a773981c6c112c43ce576f315d5b1b6",
+              "decimals": 18
+            },
+            {
+              "chain_id": "tomochain",
+              "address": "0x2eaa73bd0db20c64f53febea7b5f5e5bccc7fb8b",
+              "decimals": 18
+            },
+            {
+              "chain_id": "unichain",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "wonder",
+              "address": "0x1e347256309b4764edd8d7bdf4aa4ecb62b58320",
+              "decimals": 18
+            },
+            {
+              "chain_id": "world",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "xdai",
+              "address": "0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1",
+              "decimals": 18
+            },
+            {
+              "chain_id": "xinfin-xdc",
+              "address": "0xa7348290de5cf01772479c48d50dec791c3fc212",
+              "decimals": 18
+            },
+            {
+              "chain_id": "zero",
+              "address": "0xac98b49576b1c892ba6bfae08fe1bb0d80cf599c",
+              "decimals": 18
+            },
+            {
+              "chain_id": "zkcandy",
+              "address": "0x1e347256309b4764edd8d7bdf4aa4ecb62b58320",
+              "decimals": 18
+            },
+            {
+              "chain_id": "zksync-era",
+              "address": "0x5aea5775959fbc2557cc8789bc1bf90a239d9a91",
+              "decimals": 18
+            },
+            {
+              "chain_id": "zora",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2026-03-10T01:46:40Z",
+        "updated_at_block": null,
+        "application_metadata": {
+          "name": "Aerodrome V3",
+          "icon": {
+            "url": "https://protocol-icons.s3.amazonaws.com/icons/aerodrome-v3.jpg"
+          },
+          "url": "https://aerodrome.finance/"
+        }
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/base"
+          },
+          "data": {
+            "type": "chains",
+            "id": "base"
+          }
+        },
+        "dapp": {
+          "data": {
+            "type": "dapps",
+            "id": "aerodrome-v3"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x4200000000000000000000000000000000000006-base-aerodrome v3 farming: weth/usdc pool-staked",
+      "attributes": {
+        "parent": null,
+        "protocol": "Aerodrome V3",
+        "protocol_module": "farming",
+        "pool_address": "0xf33a96b5932d9e9b9a0eda447abd8c9d48d2e0c8",
+        "group_id": "d0d2e79cf8771570b78d0cfa79d22ab39dff962d3d79f17801765475dcda272f",
+        "name": "Aerodrome V3 Farming: WETH/USDC Pool",
+        "position_type": "staked",
+        "quantity": {
+          "int": "12659580891561686",
+          "decimals": 18,
+          "float": 0.0126595808915617,
+          "numeric": "0.012659580891561686"
+        },
+        "value": 25.548132761643767,
+        "price": 2018.086774,
+        "changes": {
+          "absolute_1d": 0.8740115618440427,
+          "percent_1d": 3.5422196185497246
+        },
+        "fungible_info": {
+          "name": "Wrapped Ether",
+          "symbol": "WETH",
+          "icon": {
+            "url": "https://cdn.zerion.io/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png"
+          },
+          "flags": {
+            "verified": true
+          },
+          "implementations": [
+            {
+              "chain_id": "abstract",
+              "address": "0x3439153eb7af838ad19d56e1571fbd09333c2809",
+              "decimals": 18
+            },
+            {
+              "chain_id": "arbitrum",
+              "address": "0x82af49447d8a07e3bd95bd0d56f35241523fbab1",
+              "decimals": 18
+            },
+            {
+              "chain_id": "astar-zkevm",
+              "address": "0xe9cc37904875b459fa5d0fe37680d36f1ed55e38",
+              "decimals": 18
+            },
+            {
+              "chain_id": "aurora",
+              "address": "0xc9bdeed33cd01541e1eed10f90519d2c06fe3feb",
+              "decimals": 18
+            },
+            {
+              "chain_id": "avalanche",
+              "address": "0x49d5c2bdffac6ce2bfdb6640f4f80f226bc10bab",
+              "decimals": 18
+            },
+            {
+              "chain_id": "base",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "berachain",
+              "address": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+              "decimals": 18
+            },
+            {
+              "chain_id": "binance-smart-chain",
+              "address": "0x2170ed0880ac9a755fd29b2688956bd959f933f8",
+              "decimals": 18
+            },
+            {
+              "chain_id": "blast",
+              "address": "0x4300000000000000000000000000000000000004",
+              "decimals": 18
+            },
+            {
+              "chain_id": "celo",
+              "address": "0x2def4285787d58a2f811af24755a8150622f4361",
+              "decimals": 18
+            },
+            {
+              "chain_id": "degen",
+              "address": "0x2f6f07cdcf3588944bf4c42ac74ff24bf56e7590",
+              "decimals": 18
+            },
+            {
+              "chain_id": "ethereum",
+              "address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+              "decimals": 18
+            },
+            {
+              "chain_id": "gravity-alpha",
+              "address": "0xf6f832466cd6c21967e0d954109403f36bc8ceaa",
+              "decimals": 18
+            },
+            {
+              "chain_id": "ink",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "katana",
+              "address": "0xee7d8bcfb72bc1880d0cf19822eb0a2e6577ab62",
+              "decimals": 18
+            },
+            {
+              "chain_id": "lens",
+              "address": "0xe5ecd226b3032910ceaa43ba92ee8232f8237553",
+              "decimals": 18
+            },
+            {
+              "chain_id": "linea",
+              "address": "0xe5d7c2a44ffddf6b295a15c148167daaaf5cf34f",
+              "decimals": 18
+            },
+            {
+              "chain_id": "manta-pacific",
+              "address": "0x0dc808adce2099a9f62aa87d9670745aba741746",
+              "decimals": 18
+            },
+            {
+              "chain_id": "mantle",
+              "address": "0xdeaddeaddeaddeaddeaddeaddeaddeaddead1111",
+              "decimals": 18
+            },
+            {
+              "chain_id": "megaeth",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "metis-andromeda",
+              "address": "0x420000000000000000000000000000000000000a",
+              "decimals": 18
+            },
+            {
+              "chain_id": "mode",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "monad",
+              "address": "0xee8c0e9f1bffb4eb878d8f15f368a02a35481242",
+              "decimals": 18
+            },
+            {
+              "chain_id": "optimism",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "polygon",
+              "address": "0x7ceb23fd6bc0add59e62ac25578270cff1b9f619",
+              "decimals": 18
+            },
+            {
+              "chain_id": "polygon-zkevm",
+              "address": "0x4f9a0e7fd2bf6067db6994cf12e4495df938e6e9",
+              "decimals": 18
+            },
+            {
+              "chain_id": "scroll",
+              "address": "0x5300000000000000000000000000000000000004",
+              "decimals": 18
+            },
+            {
+              "chain_id": "solana",
+              "address": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+              "decimals": 8
+            },
+            {
+              "chain_id": "soneium",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "sonic",
+              "address": "0x50c42deacd8fc9773493ed674b675be577f2634b",
+              "decimals": 18
+            },
+            {
+              "chain_id": "taiko",
+              "address": "0xa51894664a773981c6c112c43ce576f315d5b1b6",
+              "decimals": 18
+            },
+            {
+              "chain_id": "tomochain",
+              "address": "0x2eaa73bd0db20c64f53febea7b5f5e5bccc7fb8b",
+              "decimals": 18
+            },
+            {
+              "chain_id": "unichain",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "wonder",
+              "address": "0x1e347256309b4764edd8d7bdf4aa4ecb62b58320",
+              "decimals": 18
+            },
+            {
+              "chain_id": "world",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            },
+            {
+              "chain_id": "xdai",
+              "address": "0x6a023ccd1ff6f2045c3309768ead9e68f978f6e1",
+              "decimals": 18
+            },
+            {
+              "chain_id": "xinfin-xdc",
+              "address": "0xa7348290de5cf01772479c48d50dec791c3fc212",
+              "decimals": 18
+            },
+            {
+              "chain_id": "zero",
+              "address": "0xac98b49576b1c892ba6bfae08fe1bb0d80cf599c",
+              "decimals": 18
+            },
+            {
+              "chain_id": "zkcandy",
+              "address": "0x1e347256309b4764edd8d7bdf4aa4ecb62b58320",
+              "decimals": 18
+            },
+            {
+              "chain_id": "zksync-era",
+              "address": "0x5aea5775959fbc2557cc8789bc1bf90a239d9a91",
+              "decimals": 18
+            },
+            {
+              "chain_id": "zora",
+              "address": "0x4200000000000000000000000000000000000006",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2026-03-10T01:46:40Z",
+        "updated_at_block": null,
+        "application_metadata": {
+          "name": "Aerodrome V3",
+          "icon": {
+            "url": "https://protocol-icons.s3.amazonaws.com/icons/aerodrome-v3.jpg"
+          },
+          "url": "https://aerodrome.finance/"
+        }
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/base"
+          },
+          "data": {
+            "type": "chains",
+            "id": "base"
+          }
+        },
+        "dapp": {
+          "data": {
+            "type": "dapps",
+            "id": "aerodrome-v3"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x940181a94a35a4569e4529a3cdfb74e38fd98631-base-aerodrome v3 farming: weth/usdc pool-reward",
+      "attributes": {
+        "parent": null,
+        "protocol": "Aerodrome V3",
+        "protocol_module": "farming",
+        "pool_address": "0xf33a96b5932d9e9b9a0eda447abd8c9d48d2e0c8",
+        "group_id": "d0d2e79cf8771570b78d0cfa79d22ab39dff962d3d79f17801765475dcda272f",
+        "name": "Aerodrome V3 Farming: WETH/USDC Pool",
+        "position_type": "reward",
+        "quantity": {
+          "int": "1374515232791394000",
+          "decimals": 18,
+          "float": 1.374515232791394,
+          "numeric": "1.374515232791394000"
+        },
+        "value": 0.43820045944934377,
+        "price": 0.31880364,
+        "changes": {
+          "absolute_1d": 0.0013943834381268672,
+          "percent_1d": 0.31922253711760273
+        },
+        "fungible_info": {
+          "name": "Aerodrome",
+          "symbol": "AERO",
+          "icon": {
+            "url": "https://cdn.zerion.io/430f1d3d-9a4b-4a56-b804-896b34843ac0.png"
+          },
+          "flags": {
+            "verified": true
+          },
+          "implementations": [
+            {
+              "chain_id": "base",
+              "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2026-03-10T01:46:40Z",
+        "updated_at_block": null,
+        "application_metadata": {
+          "name": "Aerodrome V3",
+          "icon": {
+            "url": "https://protocol-icons.s3.amazonaws.com/icons/aerodrome-v3.jpg"
+          },
+          "url": "https://aerodrome.finance/"
+        }
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/base"
+          },
+          "data": {
+            "type": "chains",
+            "id": "base"
+          }
+        },
+        "dapp": {
+          "data": {
+            "type": "dapps",
+            "id": "aerodrome-v3"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/430f1d3d-9a4b-4a56-b804-896b34843ac0?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "430f1d3d-9a4b-4a56-b804-896b34843ac0"
+          }
+        }
+      }
+    },
+    {
+      "type": "positions",
+      "id": "0x940181a94a35a4569e4529a3cdfb74e38fd98631-base-aerodrome v3 farming: weth/usdc pool-reward",
+      "attributes": {
+        "parent": null,
+        "protocol": "Aerodrome V3",
+        "protocol_module": "farming",
+        "pool_address": "0xf33a96b5932d9e9b9a0eda447abd8c9d48d2e0c8",
+        "group_id": "d0d2e79cf8771570b78d0cfa79d22ab39dff962d3d79f17801765475dcda272f",
+        "name": "Aerodrome V3 Farming: WETH/USDC Pool",
+        "position_type": "reward",
+        "quantity": {
+          "int": "712042450329174600",
+          "decimals": 18,
+          "float": 0.7120424503291746,
+          "numeric": "0.712042450329174600"
+        },
+        "value": 0.22700172499946009,
+        "price": 0.31880364,
+        "changes": {
+          "absolute_1d": 0.0007223348103359561,
+          "percent_1d": 0.31922253711760273
+        },
+        "fungible_info": {
+          "name": "Aerodrome",
+          "symbol": "AERO",
+          "icon": {
+            "url": "https://cdn.zerion.io/430f1d3d-9a4b-4a56-b804-896b34843ac0.png"
+          },
+          "flags": {
+            "verified": true
+          },
+          "implementations": [
+            {
+              "chain_id": "base",
+              "address": "0x940181a94a35a4569e4529a3cdfb74e38fd98631",
+              "decimals": 18
+            }
+          ]
+        },
+        "flags": {
+          "displayable": true,
+          "is_trash": false
+        },
+        "updated_at": "2026-03-10T01:46:40Z",
+        "updated_at_block": null,
+        "application_metadata": {
+          "name": "Aerodrome V3",
+          "icon": {
+            "url": "https://protocol-icons.s3.amazonaws.com/icons/aerodrome-v3.jpg"
+          },
+          "url": "https://aerodrome.finance/"
+        }
+      },
+      "relationships": {
+        "chain": {
+          "links": {
+            "related": "https://api.zerion.io/v1/chains/base"
+          },
+          "data": {
+            "type": "chains",
+            "id": "base"
+          }
+        },
+        "dapp": {
+          "data": {
+            "type": "dapps",
+            "id": "aerodrome-v3"
+          }
+        },
+        "fungible": {
+          "links": {
+            "related": "https://api.zerion.io/v1/fungibles/430f1d3d-9a4b-4a56-b804-896b34843ac0?currency=usd"
+          },
+          "data": {
+            "type": "fungibles",
+            "id": "430f1d3d-9a4b-4a56-b804-896b34843ac0"
+          }
+        }
+      }
+    }
+  ]
+}
