@@ -37,7 +37,6 @@ cache/
 artifacts/
 broadcast/
 cache_forge/
-lib/
 
 # --- FRONTEND (React / Next.js) ---
 node_modules/
